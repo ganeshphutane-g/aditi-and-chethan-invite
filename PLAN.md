@@ -42,5 +42,8 @@ Random web images = dead links + copyright risk for something sent to guests. In
 - [x] Fix: confetti hard-stop + tab-hidden clear
 - [x] QA verified in browser — mobile (375) + desktop: intro → scratch → reveal
       → sparkler/confetti → all sections. QR, map link, families, Muffin 🐾 all correct.
+- [x] Monogram polish (clear golden serif "A & C" ampersand)
+- [x] **Deployed** → https://ganeshphutane-g.github.io/aditi-and-chethan-invite/
+      (repo: github.com/ganeshphutane-g/aditi-and-chethan-invite, public, GitHub Pages)
 - [ ] (Optional, pending client) Add real wedding date
-- [ ] (Optional) Soft background music, custom-generated Ganesha art
+- [ ] (Optional) Soft background music, custom-generated Ganesha art, og:image for WhatsApp preview
