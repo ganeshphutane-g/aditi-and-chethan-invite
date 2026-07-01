@@ -1,4 +1,16 @@
-# Aditi ♥ Chethan — Interactive Wedding Invitation
+# ⚑ UPDATE — now an ENGAGEMENT invitation (12 July 2026)
+
+The client corrected the brief: this is an **engagement** invite, not a wedding.
+The primary deliverable is now **`index.html`** — an illustrated Indian couple with a
+**ring-ceremony animation** (groom places the ring on the bride's finger) + sparkle/heart
+burst, floral arch, string lights, marigold toran. Date fixed: **Sunday, 12 July 2026**.
+Live: https://ganeshphutane-g.github.io/aditi-and-chethan-invite/ · old wedding = `wedding.html`.
+Rig note: SVG limbs animate via the **`transform` attribute + rAF director** (CSS transforms
+on `<g>` groups are unreliable here). All text is HTML so it never crops. See `README.md`.
+
+---
+
+# Aditi ♥ Chethan — Interactive Wedding Invitation (archived → wedding.html)
 
 ## Brief (from client)
 - **Cute & romantic**, "tap-and-reveal" experience: guests **scratch the card** to reveal the couple's names.
