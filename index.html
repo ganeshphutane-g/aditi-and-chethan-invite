@@ -5,9 +5,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, user-scalable=yes, maximum-scale=5" />
 <meta name="theme-color" content="#241205" />
 <title>Chethan & Aditi · We're Engaged</title>
-<meta name="description" content="With the blessings of Lord Ganesha, Chethan & Aditi are getting engaged — Sunday, 12 July 2026, Bengaluru. Scratch to reveal 💍" />
+<meta name="description" content="With the blessings of Lord Ganesha, Chethan & Aditi are getting engaged — Sunday, 12 July 2026, 10:30 AM onwards, Bengaluru. Scratch to reveal 💍" />
 <meta property="og:title" content="Chethan & Aditi — We're getting engaged!" />
-<meta property="og:description" content="Scratch the card to reveal our engagement 💍 · Sunday, 12 July 2026 · Bengaluru" />
+<meta property="og:description" content="Scratch the card to reveal our engagement 💍 · Sunday, 12 July 2026 · 10:30 AM onwards · Bengaluru" />
 <meta property="og:type" content="website" />
 <link rel="preload" as="video" href="assets/hero.mp4" />
 <link rel="preload" as="image" href="assets/hero-poster.jpg" />
@@ -199,7 +199,7 @@ p{overflow-wrap:break-word;}
 .hero-names h1 .amp{font-family:var(--f-serif);font-style:italic;font-size:clamp(24px,6.4vw,38px);
   color:var(--saffron);margin:0 .16em;}
 .hero-date{margin-top:8px;font-family:var(--f-caps);letter-spacing:.26em;text-transform:uppercase;
-  font-size:clamp(11px,3.2vw,14px);color:var(--ink-soft);padding-left:.26em;}
+  font-size:clamp(11px,3.2vw,14px);color:var(--ink-soft);padding-left:.26em;line-height:2;}
 .hero-ctas{position:relative;z-index:2;display:flex;gap:12px;flex-wrap:wrap;justify-content:center;
   opacity:0;transition:opacity .8s ease .35s;}
 .hero-ctas.show{opacity:1;}
@@ -269,7 +269,9 @@ p{overflow-wrap:break-word;}
 .std .lbl{font-family:var(--f-caps);letter-spacing:.44em;text-transform:uppercase;
   font-size:clamp(12px,3.4vw,15px);color:var(--gold-light);padding-left:.44em;}
 .std .big{font-family:var(--f-script);font-size:clamp(54px,16vw,92px);line-height:1.05;margin:8px 0 2px;}
-.std .day{font-family:var(--f-serif);font-style:italic;font-size:clamp(16px,4.6vw,21px);color:#ecd6a4;}
+.std .day{font-family:var(--f-serif);font-style:italic;font-size:clamp(16px,4.6vw,21px);color:#ecd6a4;line-height:1.6;}
+.std .time{margin-top:12px;font-family:var(--f-caps);letter-spacing:.3em;text-transform:uppercase;
+  font-size:clamp(12px,3.4vw,15px);color:var(--gold-light);padding-left:.3em;}
 .std .cd{display:flex;justify-content:center;gap:clamp(10px,3vw,22px);margin-top:22px;flex-wrap:wrap;}
 .std .cd .unit{min-width:64px;padding:10px 8px;border:1px solid rgba(240,212,148,.35);border-radius:4px;
   background:rgba(255,244,212,.06);}
@@ -407,7 +409,7 @@ p{overflow-wrap:break-word;}
 
   <div class="hero-names" id="heroNames">
     <h1><span class="n foil">Chethan</span><span class="amp">&amp;</span><span class="n foil">Aditi</span></h1>
-    <div class="hero-date">Sunday · 12 July 2026 · Bengaluru</div>
+    <div class="hero-date">Sunday · 12 July 2026<br>10:30 AM onwards · Bengaluru</div>
   </div>
 
   <div class="hero-ctas" id="heroCtas">
@@ -475,7 +477,8 @@ p{overflow-wrap:break-word;}
       <div class="std">
         <div class="lbl">Save the Date</div>
         <div class="big foil">12 · 07 · 2026</div>
-        <div class="day">Sunday, the twelfth of July<br>Two thousand &amp; twenty-six</div>
+        <div class="day">Sunday, the twelveth of July<br>Two thousand &amp; twenty-six</div>
+        <div class="time">10:30 AM onwards</div>
         <div class="cd" id="countdown" aria-label="Countdown to the engagement">
           <div class="unit"><div class="num" id="cdD">—</div><div class="u">Days</div></div>
           <div class="unit"><div class="num" id="cdH">—</div><div class="u">Hours</div></div>
@@ -736,7 +739,7 @@ p{overflow-wrap:break-word;}
 
   /* ═══════════ COUNTDOWN → 12 July 2026, 00:00 IST ═══════════ */
   (function(){
-    var target=Date.UTC(2026,6,11,18,30,0); /* = 2026-07-12 00:00 IST */
+    var target=Date.UTC(2026,6,12,5,0,0); /* = 2026-07-12 10:30 AM IST */
     var dEl=el('cdD'),hEl=el('cdH'),mEl=el('cdM');
     function tick(){
       var diff=target-Date.now();
