@@ -9,16 +9,20 @@ No hosted images, no plugins — original SVG/CSS art + a hand-written animation
 - Live link: **https://ganeshphutane-g.github.io/aditi-and-chethan-invite/**
 
 ## How guests experience it
-1. **Tap to begin** — golden "A & C" cover.
-2. **The ring ceremony** plays: the couple in a floral arch (string lights, marigold toran,
-   petals), the groom's arm reaches and slips the ring onto the bride's finger →
-   **sparkles + floating hearts**. A **"Watch the ring ▶"** button replays it.
+1. **Tap to begin** — warm-gold "A & C" cover.
+2. **Scratch the card** — a golden foil card covers the scene; scratching it reveals the
+   illustrated couple inside a **circular floral arch** (moon-gate of roses + greenery),
+   with **candles, hanging fairy lights** and a warm candlelit glow. On reveal, the
+   **ring-placement animation** plays (groom slips the ring on the bride's finger) with a
+   **sparkle + floating-heart** burst, and the names "Aditi & Chethan" appear. A
+   **"Watch again ▶"** button replays it.
 3. **Scroll** through: Ganesha blessing → the couple → both families (incl. Muffin 🐾)
    → Save the Date (12 July 2026) → venue + Google Maps + QR → closing blessing.
 
-Fully responsive (verified 360 / 375 / 1280px), text never crops (all text is real HTML,
-never baked into the artwork), and a **reduced-motion** mode shows the finished
-"ring placed" tableau for accessibility.
+The whole palette is a **warm candlelit gold / amber / blush** theme matched to the
+reference video. Fully responsive (verified 360 / 375 / 1280px), text never crops (all text
+is real HTML, never baked into the artwork), and a **reduced-motion** mode shows the
+finished "ring placed" tableau (no scratch required) for accessibility.
 
 ## How to share it
 - **Best — the link:** share **https://ganeshphutane-g.github.io/aditi-and-chethan-invite/**
