@@ -11,11 +11,13 @@ No hosted images, no plugins — original SVG/CSS art + a hand-written animation
 ## How guests experience it
 1. **Tap to begin** — warm-gold "A & C" cover.
 2. **Scratch the card** — a golden foil card covers the scene; scratching it reveals the
-   illustrated couple inside a **circular floral arch** (moon-gate of roses + greenery),
-   with **candles, hanging fairy lights** and a warm candlelit glow. On reveal, the
-   **ring-placement animation** plays (groom slips the ring on the bride's finger) with a
-   **sparkle + floating-heart** burst, and the names "Aditi & Chethan" appear. A
-   **"Watch again ▶"** button replays it.
+   couple's **engagement video, which plays on loop** (the real ring-ceremony clip in the
+   golden floral arch with candles & bokeh) with a **sparkle + floating-heart** burst, and
+   the names "Aditi & Chethan" appear. A **"Replay"** button restarts it.
+   The video is muted + `playsinline` (autoplays after the scratch on real devices; a
+   play-button fallback covers reduced-motion / blocked-autoplay). It's compressed to
+   ~1.5 MB (`assets/hero.mp4`, 1440-wide H.264, faststart) with `assets/hero-poster.jpg`
+   as the instant-paint poster.
 3. **Scroll** through: Ganesha blessing → the couple → both families (incl. Muffin 🐾)
    → Save the Date (12 July 2026) → venue + Google Maps + QR → closing blessing.
 
