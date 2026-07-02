@@ -8,23 +8,26 @@ No hosted images, no plugins — original SVG/CSS art + a hand-written animation
 - **Engagement · Sunday, 12 July 2026 · Bengaluru**
 - Live link: **https://ganeshphutane-g.github.io/aditi-and-chethan-invite/**
 
-## How guests experience it
-1. **Tap to begin** — warm-gold "A & C" cover.
-2. **Scratch the card** — a golden foil card covers the scene; scratching it reveals the
-   couple's **engagement video, which plays on loop** (the real ring-ceremony clip in the
-   golden floral arch with candles & bokeh) with a **sparkle + floating-heart** burst, and
-   the names "Aditi & Chethan" appear. A **"Replay"** button restarts it.
+## How guests experience it — "Gilded Candlelight"
+1. **Tap to reveal** — an espresso-velvet cover with floating candle-bokeh, a fine
+   filigree-cornered double frame, gold-foil script names, and a gold **wax-seal "A·C"**.
+   A soft airy **sound swell** plays on open.
+2. **Scratch the card** — an ornate diamond-lattice gold-foil card (embossed A·C
+   medallion) with a granular **foil-scratch sound** under the finger; scratching reveals
+   the couple's **engagement video, which plays on loop**, with a **golden bell-arpeggio
+   chime**, sparkle + floating-heart burst, and the names + date appear. **"Replay"**
+   restarts it; a floating **mute toggle** controls all SFX (synthesized via Web Audio —
+   no audio files, works offline).
    The video is muted + `playsinline` (autoplays after the scratch on real devices; a
-   play-button fallback covers reduced-motion / blocked-autoplay). It's compressed to
-   ~1.5 MB (`assets/hero.mp4`, 1440-wide H.264, faststart) with `assets/hero-poster.jpg`
-   as the instant-paint poster.
+   play-button fallback covers reduced-motion / blocked-autoplay). ~1.5 MB
+   (`assets/hero.mp4`) + `assets/hero-poster.jpg` poster.
 3. **Scroll** through: Ganesha blessing → the couple → both families (incl. Muffin 🐾)
-   → Save the Date (12 July 2026) → venue + Google Maps + QR → closing blessing.
+   → **Save the Date with a live countdown** (days/hours/minutes to 12 July 2026 IST)
+   → venue + Google Maps + QR → closing blessing.
 
-The whole palette is a **warm candlelit gold / amber / blush** theme matched to the
-reference video. Fully responsive (verified 360 / 375 / 1280px), text never crops (all text
-is real HTML, never baked into the artwork), and a **reduced-motion** mode shows the
-finished "ring placed" tableau (no scratch required) for accessibility.
+Fully responsive (verified 360 / 375 / 1280px), zero horizontal overflow — text never
+crops (all text is real HTML with clamp() sizing). Reduced-motion mode skips the scratch
+and shows the video with a play button.
 
 ## How to share it
 - **Best — the link:** share **https://ganeshphutane-g.github.io/aditi-and-chethan-invite/**
