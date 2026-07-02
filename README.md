@@ -1,4 +1,4 @@
-# 💍 Aditi & Chethan — Interactive Engagement Invitation
+# 💍 Chethan & Aditi — Interactive Engagement Invitation
 
 A single, self-contained web invitation whose centrepiece is an **illustrated Indian
 couple with a ring-ceremony animation** — Chethan gently places the ring on Aditi's
