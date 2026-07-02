@@ -225,8 +225,8 @@ p{overflow-wrap:break-word;}
 .reveal{opacity:0;transform:translateY(32px);transition:opacity .95s var(--ease),transform .95s var(--ease);}
 .reveal.in{opacity:1;transform:none;}
 
-.ganesha{width:clamp(80px,20vw,112px);margin:0 auto 8px;color:var(--espresso-3);
-  filter:drop-shadow(0 6px 14px rgba(120,75,20,.22));}
+.ganesha{display:block;width:clamp(130px,34vw,200px);height:auto;margin:0 auto 14px;
+  filter:drop-shadow(0 10px 22px rgba(120,75,20,.35));}
 .om-line{font-family:var(--f-dev);font-size:clamp(20px,5.6vw,26px);color:var(--espresso-3);margin-bottom:12px;}
 .shloka{font-family:var(--f-dev);font-weight:500;color:var(--ink-soft);font-size:clamp(16px,4.4vw,20px);line-height:1.95;}
 .shloka-en{font-family:var(--f-serif);font-style:italic;color:var(--ink-soft);
@@ -426,18 +426,7 @@ p{overflow-wrap:break-word;}
   <!-- Ganesha blessing -->
   <section class="section" id="ganeshaSec">
     <div class="reveal">
-      <svg class="ganesha" viewBox="0 0 120 120" aria-label="Lord Ganesha">
-        <g fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
-          <path d="M42 30 Q60 8 78 30"/><path d="M60 12 v-7"/><circle cx="60" cy="5" r="2.4" fill="currentColor"/>
-          <path d="M46 26 l3 -8 3 8M60 24 l0 -9M74 26 l-3 -8 -3 8"/>
-          <path d="M40 34 Q60 26 80 34 Q88 44 84 58 Q80 72 60 76 Q40 72 36 58 Q32 44 40 34Z"/>
-          <path d="M40 40 Q24 40 22 54 Q22 66 38 62"/><path d="M80 40 Q96 40 98 54 Q98 66 82 62"/>
-          <path d="M50 48 q4 -3 8 0"/><path d="M62 48 q4 -3 8 0"/>
-          <path d="M60 54 Q60 70 52 82 Q46 92 56 96 Q64 98 62 88"/>
-          <path d="M52 72 q-5 4 -3 10"/><path d="M68 72 q5 4 3 10"/><path d="M60 34 v10" stroke-width="3"/>
-          <path d="M40 100 Q60 92 80 100M34 104 Q60 96 86 104M46 98 Q60 108 74 98"/>
-        </g>
-      </svg>
+      <img class="ganesha" src="assets/ganesha.png" alt="Lord Ganesha" width="720" height="662" />
       <div class="om-line">॥ श्री गणेशाय नमः ॥</div>
       <p class="shloka">वक्रतुण्ड महाकाय सूर्यकोटि समप्रभ ।<br>निर्विघ्नं कुरु मे देव सर्वकार्येषु सर्वदा ॥</p>
       <p class="shloka-en">Seeking the blessings of Lord Ganesha,<br>we invite you to celebrate the beginning of a beautiful journey.</p>
